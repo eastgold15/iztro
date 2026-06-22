@@ -4,18 +4,18 @@ export default defineConfig({
   input: "./src/index.ts",
   output: [
     {
-      file: "./dist/iztro.min.js",
+      file: "./dist/eastgold15-iztro.min.js",
       format: "umd",
-      name: "iztro",
+      name: "eastgold15Iztro",
       sourcemap: true,
     },
     {
-      file: "./dist/iztro.esm.js",
+      file: "./dist/eastgold15-iztro.esm.js",
       format: "es",
       sourcemap: true,
     },
     {
-      file: "./dist/iztro.cjs.js",
+      file: "./dist/eastgold15-iztro.cjs.js",
       format: "cjs",
       sourcemap: true,
     },

@@ -13,7 +13,7 @@
     "ultracite": "7.8.3",
     "vitest": "^4.1.9"
   },
-  "name": "iztro",
+  "name": "@eastgold15/iztro",
   "scripts": {
     "build": "tsc -p tsconfig.build.json && rolldown -c rolldown.config.js",
     "test": "vitest run",
@@ -27,11 +27,11 @@
   },
   "version": "2.5.8",
   "description": "轻量级紫微斗数星盘生成库。可以通过出生年月日获取到紫微斗数星盘信息、生肖、星座等信息。This is a lightweight kit for generating astrolabes for Zi Wei Dou Shu (The Purple Star Astrology), an ancient Chinese astrology. It allows you to obtain your horoscope and personality analysis.",
-  "main": "./dist/iztro.cjs.js",
-  "module": "./dist/iztro.esm.js",
+  "main": "./dist/eastgold15-iztro.cjs.js",
+  "module": "./dist/eastgold15-iztro.esm.js",
   "types": "./dist/index.d.ts",
-  "unpkg": "./dist/iztro.min.js",
-  "jsdelivr": "./dist/iztro.min.js",
+  "unpkg": "./dist/eastgold15-iztro.min.js",
+  "jsdelivr": "./dist/eastgold15-iztro.min.js",
   "files": [
     "dist/**/*"
   ],
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SylarLong/iztro.git"
+    "url": "git+https://github.com/eastgold15/iztro.git"
   },
   "keywords": [
     "紫微斗數",
@@ -52,11 +52,11 @@
     "zodiac",
     "sign"
   ],
-  "author": "SylarLong",
+  "author": "eastgold15",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SylarLong/iztro/issues",
-    "email": "sylarlong@gmail.com"
+    "url": "https://github.com/eastgold15/iztro/issues",
+    "email": "1960825664@qq.com"
   },
   "homepage": "https://iztro.com"
 }

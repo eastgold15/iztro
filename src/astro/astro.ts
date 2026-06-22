@@ -705,8 +705,9 @@ export const getMajorStarBySolarDate = (
   }
 
   // 如果命宫为空宫，则借对宫主星
-  return majorStars[fixIndex(soulIndex + 6)]!
-    .filter((star) => star.type === "major")
+  return majorStars[fixIndex(soulIndex + 6)]!.filter(
+    (star) => star.type === "major"
+  )
     .map((star) => t(star.name))
     .join(",");
 };
